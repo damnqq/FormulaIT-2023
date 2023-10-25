@@ -9,4 +9,4 @@ for _ in range(months):
     money_capital += abs(salary - spend)
     spend += spend * increase
 
-print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", int(money_capital))
+print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов: {money_capital:.2f}")
